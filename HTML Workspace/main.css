@@ -1,0 +1,80 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+:root
+{
+    --size--: 48px;
+    --color--:#ff9d00;
+    --color-background--:#222222;
+}
+html
+{
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    
+}
+#header{
+    height: var(--size--);
+    background-color: #222222;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0 0 4px rgba(22,22,22, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.header-title{
+    display: block;
+    text-align: center;
+    padding-top: 2px;
+    color: #ff9d00;
+    font-size: 32px;
+}
+div .container{
+    position: relative;
+    display: block;
+    color: #ff9d00;
+    padding-top: 16px;
+    margin-top: var(--size--);
+    text-align: center;
+    background: #5D4157;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+div .buttons{
+    padding: 12px;
+    color: whitesmoke;
+}
+.buttons >button{
+    margin-top: 4px;
+    display: inline-block;
+    padding: 4px 12px;
+}
+.buttons >button:hover{
+    background-color: rgb(255, 57, 57);
+    color: lightcyan;
+}
+.buttons >button:active{
+    background-color: rgb(53, 134, 255);
+    color: lightcyan;
+}
+#digital-clock {
+    background-color: #66ffff;
+    width: 35%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
